@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 10 px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 2;
+  font-family: "Clip";
+  text-transform: uppercase;
+  font-size: 3em;
+  color: #ce1717;
+  text-shadow: 0 0 0.6rem #eeea0a, 0 0 1.5rem #ff65e5,
+    -0.2rem 0.1rem 1rem #cbc9df, 0.2rem 0.1rem 1rem #080005,
+    0 -0.5rem 2rem #dbd807, 0 0.5rem 3rem #ecb69d;
+  animation: shine 6s forwards, flicker 3s infinite;
+}
+
+button {
+  border-radius: 12px;
+  font-size: 35px;
+  bbackground-color: #e7e7e7; color: black;
+}
